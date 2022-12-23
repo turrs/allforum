@@ -18,5 +18,7 @@
     "alert":"off",
     "react/no-unescaped-entities": "off",
     "react/no-cycle":"off",
+    "react/prop-types": "off"
   }
+
 }
