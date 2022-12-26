@@ -75,7 +75,7 @@ function threadDetailReducer(threadDetail = [], action = {}) {
     case TypeAction.SET_CREATE_COMMENT:
       return {
         ...threadDetail,
-        comments: [...threadDetail.comments, action.payload.content],
+        comments: [action.payload.content, ...threadDetail.comments],
       };
     case TypeAction.SET_UP_COMMENTS:
       return {
